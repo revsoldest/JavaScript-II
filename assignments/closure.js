@@ -2,6 +2,32 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
+
+let plains = "White Mana";
+let mountain = "Red Mana";
+
+function hadMana() {
+  const battleField = "I have one";
+  console.log(`${battleField} ${plains}`);
+
+  function playedMana() {
+    const setMana = "set one";
+    console.log(`I'm ${setMana} ${mountain}`);
+
+    function iPlay() {
+      const creature = "Kargan Dragonrider";
+      console.log(`I tap both ${plains} ${mountain} to summon ${creature} `);
+
+    }
+    iPlay();
+  }
+  playedMana();
+}
+hadMana();
+
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
